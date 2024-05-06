@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    width: 100%;
+    overflow-y:scroll;
+}
+
+nav {
+    height: 80px;
+    background: #32c8ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px) / 2);
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+.hour {
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+    position: sticky;
+    padding-top: 2%;
+    font-style: italic;
+}
+
+.services {
+    text-align: center; 
+    font-size: 40px;
+    font-weight: bold;
+    position: sticky;
+    margin-top: 8px;
+    margin-left: 16px;
+    padding: 20px;
+    padding-top: 2%
+    
+}
+
+.descriptionS {
+    text-align: center;
+    margin: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.middle { 
+    margin: 5%;
+    margin-left: 15%;
+    object-position: center
+}
+
+.intermission {
+    float: left;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 2800%);
+
+}
+
+.gal-intermission {
+    margin: 5%;
+    margin-left: 15%;
+    object-position: center;
+}
+
+div.gallery {
+    margin: 8%;
+    margin-left: 5%;
+    float: left;
+    width: 10%;
+  }
+  
+  
+  div.bigger {
+  background-color: #ffffff;
+  height: auto;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: black;
+    background: #5bc2e7;   
+    cursor: pointer;
+    border-radius: 50px;
+    object-position: center;
+    position: absolute;
+}
+
+.buttonz {
+  margin: 0;
+  position: sticky;
+  margin-top: 10%;
+  margin-left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, 200%);
+}
+
+.button1 {background-color: #5bc2e7;}
+.button2 {background-color: #FFBF00;}
+
+.buttono {
+  margin: 85%;
+  position: sticky;
+  margin-top: 10%;
+  margin-left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-78%, 500%);
+}
+
+.first {
+    background-color: #ffffff;
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.second {
+  background-color: #ffffff;
+    min-height: 100px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start {
+  height:auto;
+  background-color:#212054;
+  font-size: 30px;
+  color: white;
+ }

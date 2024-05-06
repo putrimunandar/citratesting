@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+    height: 80px;
+    background: #32c8ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px) / 2);
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+.introduction {
+    position: relative;
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 3%;
+  }
+
+  div.introduction img {
+    width: 150%;
+    height: auto;
+  }
+
+
+.top-right {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    left: 16px;
+    padding: 20px;
+  }
+
+ .bottom-right {
+    margin: 5%;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 30px;
+  }
+
+.row {
+    float: left;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+
+.vision {
+  margin-top: 5%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.ourteam {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 8px;
+  left: 16px;
+  padding: 20px;
+}
+
+div.gallery {
+  margin-left: 200px;
+  float: left;
+  width: 500px;
+  padding-left: 50px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first {
+  background-color: #ffffff;
+  min-height: 100px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+

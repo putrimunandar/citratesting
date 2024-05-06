@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    overflow-y: scroll;
+  }
+
+nav {
+    height: 80px;
+    background: #32c8ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px) / 2);
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+    font-size: large;
+}
+
+.contacts {
+    text-align: center; 
+    font-size: 40px;
+    font-weight: bold;
+    position: sticky;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    padding: 20px;
+    padding-top: 2%
+}
+
+.google-map {
+    padding-bottom: 7%;
+    position: relative;
+    align-content: center;
+    margin-left: 10%;
+}
+
+.google-map iframe {
+    height: 300px;
+    width: 1300px;
+    left: 0;
+    top: 0;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.location {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+
+.row {
+    margin-left: 18%;
+    float: left
+}
+
+.visita {
+    margin-bottom: 6%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.loca {
+    font-size: 20px;
+}
+
+.direct {
+    margin-left: 18%;
+    float: left
+}
+
+.link {
+    margin-bottom: 6%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Tlink {
+    font-size: 20px;
+    margin-right: 10%;
+}
+
+p2 {
+    font-size: 20px;
+}
+
+.start {
+    position: relative;
+    height:auto; 
+    background-color:#212054; 
+    font-size: 36px; 
+    color: white;
+    transform: translatey(306px);
+}
